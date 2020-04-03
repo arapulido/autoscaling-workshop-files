@@ -4,10 +4,9 @@ metadata:
   labels:
     run: spike-traffic 
   name: spike-traffic 
-  namespace: datadog
 spec:
   progressDeadlineSeconds: 600
-  replicas: 2
+  replicas: 4
   revisionHistoryLimit: 10
   selector:
     matchLabels:
