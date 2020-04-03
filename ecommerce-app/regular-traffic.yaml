@@ -4,6 +4,7 @@ metadata:
   labels:
     run: regular-traffic 
   name: regular-traffic 
+  namespace: fake-traffic
 spec:
   progressDeadlineSeconds: 600
   replicas: 1

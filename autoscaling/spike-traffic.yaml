@@ -3,7 +3,8 @@ kind: Deployment
 metadata:
   labels:
     run: spike-traffic 
-  name: spike-traffic 
+  name: spike-traffic
+  namespace: fake-traffic
 spec:
   progressDeadlineSeconds: 600
   replicas: 20
